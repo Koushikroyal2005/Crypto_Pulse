@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://crypto-pulse-8dtn.onrender.com/api";
 
 export const signupUser= (data)=>axios.post(`${API_BASE}/signup`, data);
 export const loginUser= (data)=>axios.post(`${API_BASE}/login`, data);
